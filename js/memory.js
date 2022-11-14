@@ -34,11 +34,11 @@ for (let i = 0; i < 5; i++) {
 
 revealRandomNum.innerHTML = ` ------   ${randomNum}   ------- `;
 
-const TimeoutA = setTimeout(function () {
+const timeoutA = setTimeout(function () {
     revealRandomNum.innerHTML = "";
 }, 30000)
 
-const TimeoutB = setTimeout(function () {
+const timeoutB = setTimeout(function () {
     for (let i = 0; i < 5; i++) {
         userNum.push(parseInt(prompt("inserisci i numeri")));
     }
